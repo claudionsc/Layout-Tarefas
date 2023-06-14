@@ -51,7 +51,7 @@ section p {
   text-align: center;
 }
 
- li {
+.aside li {
   list-style: none;
   padding: 20% 0;
 }
@@ -69,12 +69,46 @@ a:hover{
   border: 1px solid  rgb(7,0,130);
 }
 
-
-
 .article{
-  background-color: green;
-  height: 100vh;
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10.5px );
+  -webkit-backdrop-filter: blur( 10.5px );
+  height: auto;
   width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: inline;
 }
 
+.article section{
+  margin: 5% 15%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
 
+.tarefas{
+  height: 70%;
+
+}
+.tarefas h2{
+  text-align: center;
+}
+
+.tarefas span{
+  background-color: white;
+  width: 100%;
+  overflow-y: scroll;
+
+
+}
+
+.tarefas li{
+  margin-top: 5%;
+}
+
+.tarefas span:nth-child(1){
+  margin-right: 5px;
+}
