@@ -82,11 +82,48 @@ a:hover{
   display: inline;
 }
 
+article li {
+  list-style: none;
+}
+
+form{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.hora{
+  background-color: rgb(241, 241, 241);
+  
+}
+
+.article input{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  padding: 0 5px;
+}
+
+.article .form-btn{
+  background-color: rgb(4, 184, 184);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 10%;
+  cursor: pointer;
+}
+
 .article section{
   margin: 5% 15%;
   width: 80%;
   display: flex;
   justify-content: space-around;
+}
+
+.article svg{
+  font-size: .7rem;
+  cursor: pointer
 }
 
 .tarefas{
