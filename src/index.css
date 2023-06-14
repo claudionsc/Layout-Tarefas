@@ -110,7 +110,6 @@ form{
   border: none;
   border-radius: 5px;
   margin: 0 5px;
-  width: 10%;
   cursor: pointer;
 }
 
@@ -119,6 +118,12 @@ form{
   width: 80%;
   display: flex;
   justify-content: space-around;
+}
+
+.true{
+  font-style: italic;
+  color: gray;
+  text-decoration: line-through;
 }
 
 .article svg{
